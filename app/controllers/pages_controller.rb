@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def proust
+  def sound
   end
 end

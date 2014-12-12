@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'pages/sound'
+
+  get 'pages/taste'
+
+  get 'pages/heaven'
+
+  get 'pages/happiness'
+
+  get 'pages/misery'
+
   get 'pages/proust'
 
   get 'pages/welcome'

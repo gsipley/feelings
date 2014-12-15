@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionController::TestCase
-  test "should get sound" do
-    get :sound
+  test "should get about" do
+    get :about
     assert_response :success
   end
 

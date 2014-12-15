@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'pages/about'
+
+  get 'pages/words'
+
   get 'pages/sound'
 
   get 'pages/taste'

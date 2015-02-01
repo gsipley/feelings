@@ -14,10 +14,11 @@ gem 'sdoc', '~> 0.4.0',
 group: :doc
 
 
-gem 'spring',        
+      
 
 group :development, :test do 
 	gem 'sqlite3', '1.3.9'
+	gem 'spring',  '1.1.3'
 end
 
 group :production do

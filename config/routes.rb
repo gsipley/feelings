@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  root 'pages/welcome'
-  
+  root 'pages#welcome'
+
   get 'pages/about'
 
   get 'pages/words'
